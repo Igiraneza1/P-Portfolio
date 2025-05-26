@@ -25,17 +25,17 @@ function Experience() {
   ];
 
   return (
-    <section id="experience" className="bg-gray-200 py-16 px-6">
+    <section id="experience" className="bg-cyan-800 py-16 px-6">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-4xl font-bold text-center text-primary mb-12">Experience</h2>
         
         <div className="space-y-10">
           {experiences.map((exp, index) => (
-            <div key={index} className="bg-gray-200 shadow-lg rounded-xl p-6">
-              <h3 className="text-2xl font-semibold text-accent">{exp.title}</h3>
-              <p className="text-lg text-gray-700">{exp.company}</p>
+            <div key={index} className="bg-cyan-900 shadow-lg rounded-xl p-6">
+              <h3 className="text-2xl font-bold text-accent">{exp.title}</h3>
+              <p className="text-lg text-gray-300">{exp.company}</p>
               <p className="text-sm text-gray-500 italic mb-4">{exp.period}</p>
-              <ul className="list-disc list-inside space-y-1 text-gray-800">
+              <ul className="list-disc list-inside space-y-1">
                 {exp.details.map((point, i) => (
                   <li key={i}>{point}</li>
                 ))}

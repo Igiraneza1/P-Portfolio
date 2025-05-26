@@ -36,7 +36,7 @@ function Skills() {
   ];
 
   return (
-    <section id="skills" className="min-h-screen bg-base-200 ">
+    <section id="skills" className="min-h-screen bg-base-200 bg-cyan-900 ">
       <h1 className="text-4xl md:text-5xl font-bold text-center text-primary mb-12">My Skills</h1>
 
       <div className="grid grid-cols-2 lg:grid-cols-4 max-w-7xl mx-auto gap-10">
@@ -48,7 +48,7 @@ function Skills() {
             {techSkills.map((skill, index) => (
               <div
                 key={index}
-                className="bg-white shadow-lg rounded-lg p-5 hover:shadow-xl transition-all flex flex-col items-center"
+                className="shadow-lg rounded-lg p-5 hover:shadow-xl transition-all flex flex-col items-center"
               >
                 <img src={skill.img} alt={skill.name} className="w-14 h-14 object-contain mb-3" />
                 <h3 className="text-lg font-semibold">{skill.name}</h3>

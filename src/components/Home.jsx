@@ -3,11 +3,11 @@ import profile from '../../src/images/profile.png';
 
 function Home() {
   return (
-    <div className="home flex flex-col md:flex-row items-center justify-center h-screen w-full bg-gradient-to-r from-cyan-800 to-blue-950 px-6 md:px-16 gap-10">
+    <div className="home flex flex-col md:flex-row items-center justify-center pt-20 w-full bg-gradient-to-r from-cyan-800 to-blue-950 px-6 md:px-16 gap-10">
       
       <div className="flex flex-col justify-center items-start max-w-xl text-white">
         <p
-          className="text-base sm:text-lg md:text-xl font-semibold font-mono animate-pulse"
+          className="pt-20 text-base sm:text-lg md:text-xl font-semibold font-mono animate-pulse"
           style={{ animationIterationCount: 2 }}
         >
           <strong className="text-3xl sm:text-4xl md:text-5xl block mb-4">Hi,</strong>

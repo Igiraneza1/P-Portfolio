@@ -61,8 +61,8 @@ function Skills() {
 
        
         <div className='p-5 rounded-lg shadow-lg'>
-          <h2 className="text-2xl font-bold mb-6 text-accent text-cennter">Soft Skills</h2>
-          <ul className="space-y-4 text-lg font-medium text-gray-800 list-disc list-inside">
+          <h2 className="text-2xl text-gray-800 font-bold mb-6 text-accent text-cennter">Soft Skills</h2>
+          <ul className="space-y-4 text-lg font-medium list-disc list-inside">
             {softSkills.map((skill, index) => (
               <li key={index} className="hover:text-primary transition-colors duration-300">
                 {skill}

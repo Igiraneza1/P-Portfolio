@@ -19,13 +19,13 @@ const projects = [
 
 function Projects() {
   return (
-    <section id="projects" className="py-16 bg-base-100 px-6 bg-slate-200 min-h-screen">
+    <section id="projects" className="py-16 bg-base-100 px-6 bg-slate-700 min-h-screen">
       <h2 className="text-4xl font-bold text-center text-primary mb-10">Projects</h2>
       <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto ">
         {projects.map((project, index) => (
           <div key={index} className="card shadow-md p-6 rounded-xl hover:shadow-xl transition">
             <h3 className="text-2xl font-semibold mb-3">{project.title}</h3>
-            <p className="mb-4 text-gray-700">{project.description}</p>
+            <p className="mb-4 text-gray-300">{project.description}</p>
             <div className="flex flex-wrap gap-2 mb-4">
               {project.technologies.map((tech, i) => (
                 <span key={i} className="badge badge-outline badge-primary">

@@ -7,7 +7,7 @@ function Contact() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 items-start">
         <div className="bg-slate-700 shadow-xl rounded-xl p-8">
           <h2 className="text-4xl font-extrabold text-primary mb-4">Get in touch</h2>
-          <p className="text-gray-500 mb-6">
+          <p className="text-gray-300 mb-6">
             Whether you have an idea, opportunity, or just want to say hello<br/> I’d love to hear from you.
           </p>
 
@@ -43,7 +43,7 @@ function Contact() {
               required
               className="textarea textarea-bordered w-full bg-slate-700 focus:outline-none"
             ></textarea>
-            <button type="submit" className="btn btn-primary pb-10 w-full">
+            <button type="submit" className="hover:bg-slate-500 rounded-full py-3 w-full">
               Send Message
             </button>
           </form>
@@ -52,15 +52,15 @@ function Contact() {
         
         <div className="flex flex-col justify-center items-center text-center">
           <h3 className="text-3xl font-bold text-accent mb-6">Connect with Me</h3>
-          <p className="text-gray-700 mb-8 max-w-md">
+          <p className="text-gray-400 mb-8 max-w-md">
             You can also reach me through these platforms. Let’s build something meaningful together!
           </p>
-          <div className="flex space-x-6 text-4xl text-primary">
+          <div className="flex space-x-6 text-4xl text-primary pb-20">
             <a
               href="igiranezaadeline@gmail.com"
               target="_blank"
               rel="noreferrer"
-              className="hover:text-accent transition-transform transform hover:scale-110"
+              className="hover:text-accent hover:text-white transition-transform transform hover:scale-110"
             >
               <FaEnvelope />
             </a>
@@ -68,14 +68,14 @@ function Contact() {
             href="https://wa.me/250782766241"  
             target="_blank"
             rel="noreferrer"
-            className="hover:text-accent transition-transform transform hover:scale-110"
+            className="hover:text-accent  hover:text-white transition-transform transform hover:scale-110"
             ><FaWhatsapp />
             </a>
             <a
               href="https://github.com/Igiraneza1"
               target="_blank"
               rel="noreferrer"
-              className="hover:text-accent transition-transform transform hover:scale-110"
+              className="hover:text-accent hover:text-white transition-transform transform hover:scale-110"
             >
               <FaGithub />
             </a>
@@ -83,7 +83,7 @@ function Contact() {
               href="https://www.linkedin.com/in/adeline-igiraneza/"
               target="_blank"
               rel="noreferrer"
-              className="hover:text-accent transition-transform transform hover:scale-110"
+              className="hover:text-accent hover:text-white transition-transform transform hover:scale-110"
             >
               <FaLinkedin />
             </a>
@@ -91,7 +91,7 @@ function Contact() {
               href="https://x.com/AdlnIg?t=7qHlk6inqKvZ2PODVCHdiQ&s=09"
               target="_blank"
               rel="noreferrer"
-              className="hover:text-accent transition-transform transform hover:scale-110"
+              className="hover:text-accent hover:text-white transition-transform transform hover:scale-110"
             >
               <FaTwitter />
             </a>

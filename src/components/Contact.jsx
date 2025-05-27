@@ -21,27 +21,27 @@ function Contact() {
               name="name"
               placeholder="Full Name"
               required
-              className="input input-bordered w-full bg-slate-700 border-b border-gray-500 focus:outline-none"
+              className="input input-bordered text-white w-full bg-slate-700 border-b border-gray-500 focus:outline-none"
             />
             <input
               type="email"
               name="email"
               placeholder="Email Address"
               required
-              className="input input-bordered w-full border-b bg-slate-700 border-gray-500 focus:outline-none"
+              className="input input-bordered w-full text-white border-b bg-slate-700 border-gray-500 focus:outline-none"
             />
             <input
               type="text"
               name="subject"
               placeholder="Subject"
-              className="input input-bordered w-full border-b bg-slate-700 border-gray-500 focus:outline-none"
+              className="input input-bordered text-white w-full border-b bg-slate-700 border-gray-500 focus:outline-none"
             />
             <textarea
               name="message"
               rows="5"
               placeholder="Your Message..."
               required
-              className="textarea textarea-bordered w-full bg-slate-700 focus:outline-none"
+              className="textarea textarea-bordered text-white w-full bg-slate-700 focus:outline-none"
             ></textarea>
             <button type="submit" className="hover:bg-slate-500 rounded-full py-3 w-full">
               Send Message

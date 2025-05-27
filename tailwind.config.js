@@ -4,6 +4,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        logoPrimary: '#6C63FF',     // Purple
+        logoSecondary: '#FF6584',   // Pink/Red
+        logoAccent: '#00BFA6',      // Teal
+        logoDark: '#1F2937',        // Optional dark background
+      },
       keyframes: {
         slideFromRight: {
           '0%': { transform: 'translateX(100%)', opacity: '0' },

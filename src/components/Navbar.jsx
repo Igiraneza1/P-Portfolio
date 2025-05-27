@@ -1,28 +1,50 @@
-import React, { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import React, { useState } from "react";
+import { Menu, X } from "lucide-react";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <div className="flex justify-between items-center bg-black text-gray-200 p-5 fixed top-0 w-full z-10">
-      {/* Logo */}
-      <a href="/" className="text-sm">Adeline<br />IGIRANEZA</a>
+      <a href="/" className="text-sm">
+        Adeline
+        <br />
+        IGIRANEZA
+      </a>
 
-      {/* Hamburger Menu for Mobile */}
       <div className="lg:hidden">
         <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
-          {isMenuOpen ? <X className="text-gray-200 w-6 h-6" /> : <Menu className="text-gray-200 w-6 h-6" />}
+          {isMenuOpen ? (
+            <X className="text-gray-200 w-6 h-6" />
+          ) : (
+            <Menu className="text-gray-200 w-6 h-6" />
+          )}
         </button>
       </div>
 
-      {/* Navigation Links */}
-      <div className={`lg:flex gap-10 ${isMenuOpen ? 'block' : 'hidden'} absolute lg:static top-16 left-0 w-full bg-black lg:bg-transparent lg:top-auto lg:left-auto lg:w-auto lg:p-0 p-5`}>
-        <a href="#home" className="block lg:inline hover:text-white">HOME</a>
-        <a href="#about" className="block lg:inline hover:text-white">ABOUT</a>
-        <a href="#skills" className="block lg:inline hover:text-white">SKILLS</a>
-        <a href="#experience" className="block lg:inline hover:text-white">EXPERIENCE</a>
-        <a href="#contact" className="block lg:inline hover:text-white">CONTACT</a>
+      <div
+        className={`lg:flex gap-10 ${
+          isMenuOpen ? "block" : "hidden"
+        } absolute lg:static top-16 left-0 w-full bg-black lg:bg-transparent lg:top-auto lg:left-auto lg:w-auto lg:p-0 p-5`}
+      >
+        <a href="#home" className="block lg:inline hover:text-white">
+          HOME
+        </a>
+        <a href="#about" className="block lg:inline hover:text-white">
+          ABOUT
+        </a>
+        <a href="#skills" className="block lg:inline hover:text-white">
+          SKILLS
+        </a>
+        <a href="#projects" className="block lg:inline hover:text-white">
+          PROJECTS
+        </a>
+        <a href="#experience" className="block lg:inline hover:text-white">
+          EXPERIENCE
+        </a>
+        <a href="#contact" className="block lg:inline hover:text-white">
+          CONTACT
+        </a>
       </div>
     </div>
   );

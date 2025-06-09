@@ -31,7 +31,7 @@ function Home() {
         <img
           src={profile}
           alt="Profile"
-          className="rounded-lg shadow-lg w-full object-cover"
+          className="w-full object-cover"
         />
       </div>
 

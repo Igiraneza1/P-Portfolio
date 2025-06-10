@@ -3,10 +3,10 @@ import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope,FaWhatsapp }from 'react-ico
 
 function Contact() {
   return (
-    <section id="contact" className="bg-cyan-800 py-20 px-6">
+    <section id="contact" className="bg-cyan-950 py-20 px-6">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 items-start">
         <div className="bg-cyan-900 shadow-xl rounded-xl p-8">
-          <h2 className="text-4xl font-extrabold text-primary mb-4">Get in touch</h2>
+          <h2 className="text-4xl text-gray-900 font-extrabold text-primary mb-4">Get in touch</h2>
           <p className="text-gray-300 mb-6">
             Whether you have an idea, opportunity, or just want to say hello<br/> I’d love to hear from you.
           </p>
@@ -43,7 +43,7 @@ function Contact() {
               required
               className="textarea textarea-bordered text-white w-full bg-cyan-900 focus:outline-none"
             ></textarea>
-            <button type="submit" className="hover:bg-slate-500 rounded-full py-3 w-full">
+            <button type="submit" className="hover:bg-cyan-700 rounded-full py-3 w-full">
               Send Message
             </button>
           </form>
@@ -51,7 +51,7 @@ function Contact() {
 
         
         <div className="flex flex-col justify-center items-center text-center">
-          <h3 className="text-3xl font-bold text-accent mb-6">Connect with Me</h3>
+          <h3 className="text-3xl font-extralight text-accent mb-6 text-gray-100">Connect with Me</h3>
           <p className="text-gray-400 mb-8 max-w-md">
             You can also reach me through these platforms. Let’s build something meaningful together!
           </p>

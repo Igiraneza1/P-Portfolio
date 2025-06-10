@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaWhatsapp } from 'react-i
 
 function Footer() {
   return (
-    <footer className="bg-black text-gray-400 fixed bottom-0 w-full text-base-content py-6 px-4 mt-12">
+    <footer className="bg-black text-gray-400 fixed bottom-0 w-full text-base-content px-4 mt-12">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="text-center md:text-left">
           <h1 className="text-xl font-bold">Adeline IGIRANEZA</h1>

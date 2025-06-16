@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
 
 const quotes = [
-  "Programs must be written for people to read, and only incidentally for machines to execute. – Harold Abelson",
-  "Don’t watch the clock; do what it does. Keep going. – Sam Levenson",
-  "The key is not to prioritize what’s on your schedule, but to schedule your priorities. – Stephen Covey",
-  "Believe you can and you're halfway there. – Theodore Roosevelt",
-  "Confidence comes not from always being right but from not fearing to be wrong. – Peter T. Mcintyre",
-  "First, solve the problem. Then, write the code. – John Johnson",
-  "Time is what we want most, but what we use worst. – William Penn",
-  "Success usually comes to those who are too busy to be looking for it. – Henry David Thoreau",
-  "It’s not about ideas. It’s about making ideas happen. – Scott Belsky",
+  "Programs must be written for people to read, and only incidentally for machines to execute.",
+  "Don’t watch the clock; do what it does. Keep going.",
+  "The key is not to prioritize what’s on your schedule, but to schedule your priorities.",
+  "Believe you can and you're halfway there.",
+  "Confidence comes not from always being right but from not fearing to be wrong.",
+  "First, solve the problem. Then, write the code.",
+  "Time is what we want most, but what we use worst.",
+  "Success usually comes to those who are too busy to be looking for it.",
+  "It’s not about ideas. It’s about making ideas happen.",
 ];
 
 function Start() {

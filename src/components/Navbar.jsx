@@ -5,7 +5,7 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="flex justify-between items-center bg-black text-gray-200 p-3 fixed top-0 w-full z-10">
+    <div className="flex justify-between items-center text-gray-200 p-3 fixed top-0 w-full z-10">
       <a href="/" className="text-md lg:text-xl font-bold">
         Adeline IGIRANEZA
       </a>
@@ -23,7 +23,7 @@ function Navbar() {
       <div
         className={`lg:flex gap-10 ${
           isMenuOpen ? "block" : "hidden"
-        } absolute lg:static top-16 left-0 w-full bg-black lg:bg-transparent lg:top-auto lg:left-auto lg:w-auto lg:p-0 p-5`}
+        } absolute lg:static top-16 left-0 w-full bg-cyan-950 lg:bg-transparent lg:top-auto lg:left-auto lg:w-auto lg:p-0 p-5`}
       >
         <a href="#home" className="block lg:inline hover:underline">
           HOME

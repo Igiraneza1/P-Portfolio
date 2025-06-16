@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 
 const quotes = [
-  "Code is like humor. When you have to explain it, it’s bad. – Cory House",
   "Programs must be written for people to read, and only incidentally for machines to execute. – Harold Abelson",
   "Don’t watch the clock; do what it does. Keep going. – Sam Levenson",
   "The key is not to prioritize what’s on your schedule, but to schedule your priorities. – Stephen Covey",
@@ -21,7 +20,7 @@ function Start() {
     const interval = setInterval(() => {
       setQuoteIndex((prev) => (prev + 1) % quotes.length);
       setAnimateKey((prev) => prev + 1);
-    }, 6000); // slower 6-second interval
+    }, 6000); 
     return () => clearInterval(interval);
   }, []);
 
@@ -36,7 +35,7 @@ function Start() {
 
       <blockquote
         key={animateKey}
-        className="max-w-xl text-gray-200 italic text-lg animate-fadeInSlow"
+        className="max-w-xl text-gray-200 italic font-extralight text-lg animate-fadeInSlow"
       >
         "{quotes[quoteIndex]}"
       </blockquote>

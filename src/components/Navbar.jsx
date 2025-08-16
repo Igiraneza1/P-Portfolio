@@ -5,7 +5,7 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="flex justify-between items-center text-gray-200 p-3 fixed top-0 w-full z-10">
+    <div className="flex justify-between items-center  bg-white/50 text-gray-900 p-3 fixed top-0 w-full z-10">
       <a href="/" className="text-md lg:text-xl font-bold">
         Adeline IGIRANEZA
       </a>

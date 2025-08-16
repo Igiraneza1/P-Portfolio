@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import mission from '../images/0_Fo8WM_Tkq0bC_bPN.jpg';
-import vision from '../images/1698334919638.png';
+import mission from '../image/0_Fo8WM_Tkq0bC_bPN.jpg';
+import vision from '../image/1698334919638.png';
 
 function About() {
   return (

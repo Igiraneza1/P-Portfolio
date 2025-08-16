@@ -17,25 +17,23 @@ const projects = [
     link: 'https://viewer-k7cg.vercel.app/',
     image: 'https://via.placeholder.com/400x200?text=Recipe+Viewer+App',
   },
- {
-  title: 'Elegant – E-commerce Frontend',
-  description:
-    'Elegant is a modern and high-performance e-commerce frontend built using Next.js 15, TypeScript, and Tailwind CSS. It features a fully responsive design with reusable components for product listings, blog/article sections, and a user-friendly footer. Optimized for SEO and scalability, Elegant delivers a seamless shopping experience and is ready for production deployment on Vercel.',
-  technologies: ['Next.js 15', 'TypeScript', 'Tailwind CSS', 'App Router', 'SEO', 'Vercel'],
-  link: 'https://github.com/Igiraneza1/In-door.git', 
-  image: 'https://via.placeholder.com/400x200?text=Elegant+Ecommerce',
-}
-
+  {
+    title: 'Elegant – E-commerce Frontend',
+    description:
+      'Elegant is a modern and high-performance e-commerce frontend built using Next.js 15, TypeScript, and Tailwind CSS. It features a fully responsive design with reusable components for product listings, blog/article sections, and a user-friendly footer. Optimized for SEO and scalability, Elegant delivers a seamless shopping experience and is ready for production deployment on Vercel.',
+    technologies: ['Next.js 15', 'TypeScript', 'Tailwind CSS', 'App Router', 'SEO', 'Vercel'],
+    link: 'https://github.com/Igiraneza1/In-door.git',
+    image: 'https://via.placeholder.com/400x200?text=Elegant+Ecommerce',
+  },
   {
     title: 'Github-challenge',
     description:
-      'A app that lets you search for GitHub users and view their profile information. It fetches data from the GitHub API and shows details like avatar, name, bio, location, and public repositories. The app is fully responsive and built with clean, maintainable JavaScript code.',
+      'An app that lets you search for GitHub users and view their profile information. It fetches data from the GitHub API and shows details like avatar, name, bio, location, and public repositories. The app is fully responsive and built with clean, maintainable JavaScript code.',
     technologies: ['React.js', 'Tailwind CSS'],
     link: 'https://github.com/Igiraneza1/Github-Challenge.git',
-    image: 'https://www.google.com/imgres?q=githubchallenge%20frontend%20mentor&imgurl=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F26658051%3Fv%3D4&imgrefurl=https%3A%2F%2Fgithub.com%2Fleandrorodrigues00%2Ffrontend-mentor-challenges&docid=WgpzbSZyWj5UKM&tbnid=mu_H144mvktsVM&vet=12ahUKEwjip8TP4_WOAxWmT0EAHXIaOnAQM3oECDoQAA..i&w=460&h=460&hcb=2&ved=2ahUKEwjip8TP4_WOAxWmT0EAHXIaOnAQM3oECDoQAA',
+    image: 'https://via.placeholder.com/400x200?text=Github+Challenge',
   },
 ];
-
 
 function Projects() {
   return (
@@ -80,4 +78,5 @@ function Projects() {
     </section>
   );
 }
-export default projects;
+
+export default Projects;

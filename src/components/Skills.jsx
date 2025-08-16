@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import data from "../types/data"; 
+import data from "../types/skills"; 
 
 const container = {
   hidden: { opacity: 0 },

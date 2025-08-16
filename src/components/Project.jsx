@@ -7,24 +7,48 @@ const projects = [
       'A responsive personal website built with React and Tailwind CSS, showcasing my skills, soft strengths, and contact information. Includes smooth animations and a downloadable CV.',
     technologies: ['React', 'Tailwind CSS', 'DaisyUI'],
     link: 'https://github.com/adeline/portfolio',
+    image: 'https://via.placeholder.com/400x200?text=Portfolio+Website',
+  },
+  {
+    title: 'Recipe Viewer App',
+    description:
+      'A dynamic web application to browse, search, and view delicious recipes. Users can fetch recipe data, view detailed cooking instructions, and filter recipes by category or ingredients.',
+    technologies: ['Next.js', 'TypeScript', 'Tailwind', 'API', 'Clerk Authentication'],
+    link: 'https://viewer-k7cg.vercel.app/',
+    image: 'https://via.placeholder.com/400x200?text=Recipe+Viewer+App',
   },
  {
-  title: 'Recipe Viewer App',
+  title: 'Elegant – E-commerce Frontend',
   description:
-    'A dynamic web application to browse, search, and view delicious recipes. Users can fetch recipe data, view detailed cooking instructions, and filter recipes by category or ingredients. Built using React with API integration and TypeScript.',
-  technologies: ['Next.js', 'TypeScript', 'Tailwind', 'API', 'Clerk Authentication'],
-  link: 'https://viewer-k7cg.vercel.app/',
+    'Elegant is a modern and high-performance e-commerce frontend built using Next.js 15, TypeScript, and Tailwind CSS. It features a fully responsive design with reusable components for product listings, blog/article sections, and a user-friendly footer. Optimized for SEO and scalability, Elegant delivers a seamless shopping experience and is ready for production deployment on Vercel.',
+  technologies: ['Next.js 15', 'TypeScript', 'Tailwind CSS', 'App Router', 'SEO', 'Vercel'],
+  link: 'https://github.com/Igiraneza1/In-door.git', 
+  image: 'https://via.placeholder.com/400x200?text=Elegant+Ecommerce',
 }
 
+  {
+    title: 'Github-challenge',
+    description:
+      'A app that lets you search for GitHub users and view their profile information. It fetches data from the GitHub API and shows details like avatar, name, bio, location, and public repositories. The app is fully responsive and built with clean, maintainable JavaScript code.',
+    technologies: ['React.js', 'Tailwind CSS'],
+    link: 'https://github.com/Igiraneza1/Github-Challenge.git',
+    image: 'https://www.google.com/imgres?q=githubchallenge%20frontend%20mentor&imgurl=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F26658051%3Fv%3D4&imgrefurl=https%3A%2F%2Fgithub.com%2Fleandrorodrigues00%2Ffrontend-mentor-challenges&docid=WgpzbSZyWj5UKM&tbnid=mu_H144mvktsVM&vet=12ahUKEwjip8TP4_WOAxWmT0EAHXIaOnAQM3oECDoQAA..i&w=460&h=460&hcb=2&ved=2ahUKEwjip8TP4_WOAxWmT0EAHXIaOnAQM3oECDoQAA',
+  },
 ];
+
 
 function Projects() {
   return (
-    <section id="projects" className="py-16 bg-base-100 px-6 bg-cyan-900 min-h-screen">
-      <h2 className="text-5xl text-gray-200 font-bold text-center text-primary pb-10 ">Projects</h2>
-      <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto ">
+    <section id="projects" className="py-16 bg-cyan-900 px-6 min-h-screen">
+      <h2 className="text-5xl text-gray-200 font-bold text-center pb-10">Projects</h2>
+      <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
         {projects.map((project, index) => (
-          <div key={index} className="card shadow-md p-6 rounded-xl hover:shadow-xl transition">
+          <div key={index} className="card shadow-md p-6 rounded-xl bg-base-200 hover:shadow-xl transition">
+            <img
+              src={project.image}
+              alt={project.title}
+              className="w-full h-48 object-cover rounded-md mb-4"
+            />
             <h3 className="text-2xl font-semibold mb-3">{project.title}</h3>
             <p className="mb-4 text-gray-300">{project.description}</p>
             <div className="flex flex-wrap gap-2 mb-4">
@@ -38,24 +62,22 @@ function Projects() {
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="text-blue-400 hover:underline"
             >
               View Project →
             </a>
           </div>
-        ))}  
+        ))}
       </div>
-      <a 
-      href="https://github.com/Igiraneza1?tab=repositories"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="hover:underline text-lg p-5 inline-block transition duration-300 ease-in-out transform hover:translate-x-1"
+      <a
+        href="https://github.com/Igiraneza1?tab=repositories"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:underline text-lg p-5 inline-block transition duration-300 ease-in-out transform hover:translate-x-1"
       >
         View more projects on GitHub →
       </a>
-
     </section>
   );
 }
-
-export default Projects;
+export default projects;

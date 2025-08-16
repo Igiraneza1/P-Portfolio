@@ -17,12 +17,12 @@ function Home() {
         </p>
 
         <a
-        href="https://drive.google.com/file/d/1rmDAVSQPq9b1oqv8GHyaw8pzn-7xeZQ1/view?usp=sharing"
+        href="https://drive.google.com/file/d/1jIigRI4LKQ6UhuIddY9_EzqMu8BoOjND/view?usp=sharing"
         target="_blank"
         rel='noopener noreferrer'
         className="  text-center font-serif bg-slate-700 hover:bg-slate-800 transition-colors duration-300 text-white w-40 sm:w-48 md:w-56 py-3 rounded-full animate-bounce mt-8 shadow-lg"
         >
-          CV
+          Resume
         </a>
       </div>
 

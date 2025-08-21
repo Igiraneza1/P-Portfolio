@@ -9,22 +9,25 @@ import Projects from './components/Project';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
+import TidioChat from './tidio/TidioChat'; 
 
 function App() {
   return (
     <>
-    <div>
-      <Navbar />
-      <div id="/"><Start /></div>
-      <div id="home"><Home /></div>
-      <div id="about"><About /></div>
-      <div id="skills"><Skills /></div>
-      <div id="experience"><Experience/></div>
-      <div id="projects"><Projects /></div>
-      <div id="contact"><Contact /></div>
-      <Footer />
-      <ScrollToTop />
-
+      <div>
+        <Navbar />
+        <div id="/"><Start /></div>
+        <div id="home"><Home /></div>
+        <div id="about"><About /></div>
+        <div id="skills"><Skills /></div>
+        <div id="experience"><Experience/></div>
+        <div id="projects"><Projects /></div>
+        <div id="contact"><Contact /></div>
+        
+        <Footer />
+        <TidioChat />
+        <ScrollToTop />
+        
       </div>
     </>
   );

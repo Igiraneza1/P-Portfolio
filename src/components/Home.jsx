@@ -16,17 +16,29 @@ function Home() {
           I'm always open to learning new tools and improving my skills to become better.
         </p>
 
-        <a
-        href="https://drive.google.com/file/d/1jIigRI4LKQ6UhuIddY9_EzqMu8BoOjND/view?usp=sharing"
-        target="_blank"
-        rel='noopener noreferrer'
-        className="  text-center font-serif bg-slate-700 hover:bg-slate-800 transition-colors duration-300 text-white w-40 sm:w-48 md:w-56 py-3 rounded-full animate-bounce mt-8 shadow-lg"
-        >
-          Resume
-        </a>
+        <div className="flex flex-col sm:flex-row gap-4 mt-8">
+         
+          <a
+            href="https://drive.google.com/file/d/1jIigRI4LKQ6UhuIddY9_EzqMu8BoOjND/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-center font-serif bg-slate-700 hover:bg-slate-800 transition-colors duration-300 text-white w-40 sm:w-48 md:w-56 py-3 rounded-full animate-bounce shadow-lg"
+          >
+            Resume
+          </a>
+
+          
+          <a
+            href="https://youtu.be/7zYOkFx_iaY?si=LyKPRIB9lwcR1jCs"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-center font-serif bg-red-800 hover:bg-red-700 transition-colors duration-300 text-white w-40 sm:w-48 md:w-56 py-3 rounded-full animate-bounce shadow-lg"
+          >
+            Intro Video
+          </a>
+        </div>
       </div>
 
-      
       <div className="max-w-sm">
         <img
           src={profile}

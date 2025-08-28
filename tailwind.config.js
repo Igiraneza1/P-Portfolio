@@ -1,14 +1,15 @@
 module.exports = {
+  darkMode: 'class',
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}", 
   ],
   theme: {
     extend: {
       colors: {
-        logoPrimary: '#6C63FF',     // Purple
-        logoSecondary: '#FF6584',   // Pink/Red
-        logoAccent: '#00BFA6',      // Teal
-        logoDark: '#1F2937',        // Optional dark background
+        logoPrimary: '#6C63FF',     
+        logoSecondary: '#FF6584',   
+        logoAccent: '#00BFA6',      
+        logoDark: '#1F2937',        
       },
       keyframes: {
         slideFromRight: {

@@ -39,10 +39,10 @@ function Experience() {
   };
 
   return (
-    <section id="experience" className="bg-cyan-950 py-16 px-6">
+    <section id="experience" className="bg-cyan-950 dark:bg-gray-900 py-16 px-6 text-gray-100 dark:text-gray-200">
       <div className="max-w-5xl mx-auto">
         <motion.h2
-          className="text-5xl text-gray-200 font-bold text-center text-primary mb-12"
+          className="text-5xl font-bold text-center mb-12 text-gray-200 dark:text-gray-100"
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
@@ -55,14 +55,14 @@ function Experience() {
           {experiences.map((exp, index) => (
             <motion.div
               key={index}
-              className="bg-cyan-950 border border-gray-400 shadow-lg rounded-xl p-6"
+              className="bg-cyan-950 dark:bg-gray-800 border border-gray-400 dark:border-gray-600 shadow-lg rounded-xl p-6"
               variants={zoomInVariant}
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.3 }}
             >
               <motion.h3
-                className="text-2xl font-bold text-accent"
+                className="text-2xl font-bold text-accent dark:text-gray-100"
                 variants={zoomInVariant}
               >
                 {exp.title}
@@ -74,13 +74,13 @@ function Experience() {
                 {exp.company}
               </motion.p>
               <motion.p
-                className="text-sm text-gray-500 italic mb-4"
+                className="text-sm text-gray-500 dark:text-gray-400 italic mb-4"
                 variants={zoomInVariant}
               >
                 {exp.period}
               </motion.p>
               <motion.ul
-                className="list-disc list-inside space-y-1"
+                className="list-disc list-inside space-y-1 text-gray-950 font-semibold"
                 variants={zoomInVariant}
               >
                 {exp.details.map((point, i) => (

@@ -21,7 +21,7 @@ const projects = [
     title: 'Elegant – E-commerce Frontend',
     description:
       'Elegant is a modern and high-performance e-commerce frontend built using Next.js 15, TypeScript, and Tailwind CSS. It features a fully responsive design with reusable components for product listings, blog/article sections, and a user-friendly footer. Optimized for SEO and scalability, Elegant delivers a seamless shopping experience and is ready for production deployment on Vercel.',
-    technologies: ['Next.js 15', 'TypeScript', 'Tailwind CSS', 'App Router', 'SEO', 'Vercel'],
+    technologies: ['Next.js 15', 'TypeScript', 'Tailwind CSS', 'App Router ', 'SEO', 'Vercel'],
     link: 'https://github.com/Igiraneza1/In-door.git',
     image: 'https://via.placeholder.com/400x200?text=Elegant+Ecommerce',
   },
@@ -47,11 +47,11 @@ function Projects() {
               alt={project.title}
               className="w-full h-48 object-cover rounded-md mb-4"
             />
-            <h3 className="text-2xl font-semibold mb-3">{project.title}</h3>
+            <h3 className="text-2xl font-semibold mb-3 text-gray-900">{project.title}</h3>
             <p className="mb-4 text-gray-300">{project.description}</p>
             <div className="flex flex-wrap gap-2 mb-4">
               {project.technologies.map((tech, i) => (
-                <span key={i} className="badge badge-outline badge-primary">
+                <span key={i} className="badge badge-outline badge-primary text-gray-900">
                   {tech}
                 </span>
               ))}
@@ -60,7 +60,7 @@ function Projects() {
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-400 hover:underline"
+              className="text-blue-300 hover:underline"
             >
               View Project →
             </a>
@@ -71,7 +71,7 @@ function Projects() {
         href="https://github.com/Igiraneza1?tab=repositories"
         target="_blank"
         rel="noopener noreferrer"
-        className="hover:underline text-lg p-5 inline-block transition duration-300 ease-in-out transform hover:translate-x-1"
+        className=" text-gray-200 hover:underline text-lg p-5 inline-block transition duration-300 ease-in-out transform hover:translate-x-1"
       >
         View more projects on GitHub →
       </a>

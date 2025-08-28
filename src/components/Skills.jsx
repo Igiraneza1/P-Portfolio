@@ -24,9 +24,9 @@ function Skills() {
   ];
 
   return (
-    <section id="skills" className="min-h-screen bg-cyan-900 p-10">
+    <section id="skills" className="min-h-screen bg-cyan-900 text-gray-300 p-10">
       <motion.h1
-        className="text-5xl md:text-5xl font-bold text-left text-primary mb-12"
+        className="text-5xl md:text-5xl font-bold text-center text-primary mb-12 text-gray-200"
         initial={{ opacity: 0, y: -30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
@@ -86,16 +86,16 @@ function Skills() {
 
         {/* Soft Skills */}
         <motion.div
-          className="p-5 rounded-lg shadow-lg w-full"
+          className="p-5 rounded-lg shadow-lg w-full flex flex-col align-center"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-2xl font-bold mb-6 text-accent text-left">
+          <h2 className="text-3xl font-bold mb-6 text-accent text-left">
             Soft Skills
           </h2>
-          <ul className="space-y-4 text-lg font-medium list-disc list-inside">
+          <ul className="space-y-4 text-lg font-medium list-disc list-inside grid grid-cols-3 text-gray-300">
             {data.softSkills.map((skill, index) => (
               <li
                 key={index}

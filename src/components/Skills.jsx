@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import data from "../types/skills"; 
+import data from "../types/skills";
 
 const container = {
   hidden: { opacity: 0 },
@@ -13,20 +13,12 @@ const item = {
 };
 
 function Skills() {
-  const categories = [
-    "Languages",
-    "Frameworks",
-    "VersionControl",
-    "Tools",
-    "Database",
-    "CloudServices",
-    "Testing",
-  ];
+  const categories = ["Frontend", "Backend", "Database", "Tools"];
 
   return (
     <section id="skills" className="min-h-screen bg-cyan-900 text-gray-300 p-10">
       <motion.h1
-        className="text-5xl md:text-5xl font-bold text-center text-primary mb-12 text-gray-200"
+        className="text-5xl font-bold text-center mb-12 text-gray-200"
         initial={{ opacity: 0, y: -30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
@@ -64,11 +56,8 @@ function Skills() {
                       className="w-14 h-14 object-contain mb-3"
                     />
                     <h3 className="text-lg font-semibold">{skill.name}</h3>
-                    <p className="text-sm text-primary font-medium">
-                      {skill.value}%
-                    </p>
+                    <p className="text-sm text-primary font-medium">{skill.value}%</p>
 
-                    
                     <div className="w-full bg-gray-300 rounded-full h-3 mt-2">
                       <div
                         className="h-3 rounded-full"
@@ -92,9 +81,7 @@ function Skills() {
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl font-bold mb-6 text-accent text-left">
-            Soft Skills
-          </h2>
+          <h2 className="text-3xl font-bold mb-6 text-accent text-left">Soft Skills</h2>
           <ul className="space-y-4 text-lg font-medium list-disc list-inside grid grid-cols-3 text-gray-300">
             {data.softSkills.map((skill, index) => (
               <li

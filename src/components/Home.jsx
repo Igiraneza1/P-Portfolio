@@ -11,9 +11,8 @@ function Home() {
           style={{ animationIterationCount: 2 }}
         >
           <strong className="text-3xl sm:text-4xl md:text-5xl block mb-4">Hi,</strong>
-          I'm a Front-End developer who enjoys creating beautiful and functional user interfaces.
-          I work hard and like working with others to build great projects.
-          I'm always open to learning new tools and improving my skills to become better.
+          I’m a Full-Stack Developer passionate about building clean, functional, and user-friendly web applications. 
+          I enjoy working on both frontend and backend, collaborating with teams, and continuously learning new technologies to deliver high-quality solutions.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 mt-8">

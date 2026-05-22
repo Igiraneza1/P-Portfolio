@@ -1,15 +1,22 @@
 import React, { useState, useEffect } from "react";
 
 const quotes = [
-  "Programs must be written for people to read, and only incidentally for machines to execute.",
-  "Don’t watch the clock; do what it does. Keep going.",
-  "The key is not to prioritize what’s on your schedule, but to schedule your priorities.",
-  "Believe you can and you're halfway there.",
-  "Confidence comes not from always being right but from not fearing to be wrong.",
-  "First, solve the problem. Then, write the code.",
-  "Time is what we want most, but what we use worst.",
-  "Success usually comes to those who are too busy to be looking for it.",
-  "It’s not about ideas. It’s about making ideas happen.",
+  [
+  "Technology is best when it brings people together.",
+  "Innovation begins with curiosity and grows through consistency.",
+  "The future belongs to those who keep learning and adapting.",
+  "Great things happen when creativity meets technology.",
+  "Technology is not just about tools — it’s about solving real problems.",
+  "Progress is built one idea, one challenge, and one solution at a time.",
+  "Digital transformation starts with bold thinking.",
+  "In a world driven by technology, continuous learning is the real advantage.",
+  "Success comes from turning ideas into meaningful experiences.",
+  "Technology creates endless opportunities for those willing to explore them.",
+  "The best innovations are simple, useful, and human-centered.",
+  "Growth happens outside the comfort zone and inside the learning process.",
+  "Every challenge is an opportunity to create something better.",
+  "Modern technology empowers people to build without limits.",
+  "Small steps in learning today create big opportunities tomorrow."
 ];
 
 function Start() {
@@ -30,7 +37,7 @@ function Start() {
         Adeline IGIRANEZA
       </h1>
       <p className="text-4xl font-sans pt-3 text-gray-950 animate-slideFromRightSlow mb-6">
-        Front-End Developer
+        IT Specialist | Web Developer 
       </p>
 
       <blockquote

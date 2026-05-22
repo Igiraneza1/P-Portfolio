@@ -37,7 +37,7 @@ const data = {
     "Time Management",
     "Adaptability",
     "Creativity",
-    "Leadership",
+    // "Leadership",
   ],
 };
 

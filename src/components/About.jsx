@@ -33,9 +33,9 @@ function About() {
             <figcaption>
               <h2 className="text-2xl font-extrabold text-center text-black mb-4">Vision</h2>
               <p className="font-serif text-lg text-gray-200 leading-relaxed">
-                My vision is to become a creative and skilled front-end developer who builds meaningful digital experiences that make life easier and more enjoyable for people around the world.
+                My vision is to become a creative and skilled Technologist who builds meaningful digital experiences that make life easier and more enjoyable for people around the world.
                 I aim to inspire others to join technology, especially in rural areas, by showing them how to use their limited resources to achieve big goals.
-                I also plan to build an online learning platform to help them grow and learn.
+                I want to use technology to help people learn new skills, grow their knowledge, and unlock better opportunities.
               </p>
             </figcaption>
           </figure>
@@ -58,8 +58,9 @@ function About() {
             <figcaption>
               <h2 className="text-2xl font-extrabold text-center text-black mb-4">Mission</h2>
               <p className="font-serif text-lg text-gray-200 leading-relaxed">
-                My mission is to create user-friendly and responsive websites using modern tools. I constantly learn by building real-world projects, joining tech communities, and collaborating with others.
-                I’m passionate about creating beautiful and useful experiences, growing my skills through hands-on practice, and working as a team to solve real problems.
+                My mission is to build user friendly, and impactful technology solutions using modern tools and frameworks. I continuously grow my skills by working on real world tech projects, 
+                engaging with technology communities, and collaborating with others in the field. 
+                I’m passionate about creating meaningful digital experiences, learning through hands-on development, and contributing to team efforts that solve real world problems using technology.
               </p>
             </figcaption>
           </figure>

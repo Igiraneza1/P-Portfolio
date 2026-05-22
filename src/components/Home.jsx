@@ -11,8 +11,9 @@ function Home() {
           style={{ animationIterationCount: 2 }}
         >
           <strong className="text-3xl sm:text-4xl md:text-5xl block mb-4">Hi,</strong>
-          I’m a Full-Stack Developer passionate about building clean, functional, and user-friendly web applications. 
-          I enjoy working on both frontend and backend, collaborating with teams, and continuously learning new technologies to deliver high-quality solutions.
+          I’m Adeline Igiraneza, an IT Specialist with strong Full-Stack Development skills and a passion for creating clean, user-friendly web applications. 
+          With my background in IT systems and infrastructure, I build solutions that are not only functional but also secure, reliable, and practical for real-world use. 
+          I enjoy working with modern technologies to develop scalable applications and continuously improving my skills through learning and collaboration.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 mt-8">

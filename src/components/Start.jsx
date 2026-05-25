@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 
 const quotes = [
-  [
   "Technology is best when it brings people together.",
   "Innovation begins with curiosity and grows through consistency.",
   "The future belongs to those who keep learning and adapting.",
@@ -27,7 +26,8 @@ function Start() {
     const interval = setInterval(() => {
       setQuoteIndex((prev) => (prev + 1) % quotes.length);
       setAnimateKey((prev) => prev + 1);
-    }, 6000); 
+    }, 6000);
+
     return () => clearInterval(interval);
   }, []);
 
@@ -36,8 +36,9 @@ function Start() {
       <h1 className="text-3xl font-sans pt-3 text-gray-300 animate-slideFromRight">
         Adeline IGIRANEZA
       </h1>
+
       <p className="text-4xl font-sans pt-3 text-gray-950 animate-slideFromRightSlow mb-6">
-        IT Specialist | Web Developer 
+        IT Specialist | Web Developer
       </p>
 
       <blockquote
@@ -58,6 +59,7 @@ function Start() {
             transform: translateX(0);
           }
         }
+
         @keyframes slideFromRightSlow {
           0% {
             opacity: 0;
@@ -68,18 +70,22 @@ function Start() {
             transform: translateX(0);
           }
         }
+
         @keyframes fadeInSlow {
           0% {
             opacity: 0;
             transform: translateY(20px);
           }
+
           20% {
             opacity: 1;
             transform: translateY(0);
           }
+
           80% {
             opacity: 1;
           }
+
           100% {
             opacity: 0;
             transform: translateY(-10px);
@@ -89,9 +95,11 @@ function Start() {
         .animate-slideFromRight {
           animation: slideFromRight 1.5s ease-out forwards;
         }
+
         .animate-slideFromRightSlow {
           animation: slideFromRightSlow 2s ease-out forwards;
         }
+
         .animate-fadeInSlow {
           animation: fadeInSlow 6s ease-in-out;
         }

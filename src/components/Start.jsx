@@ -43,10 +43,15 @@ function Start() {
 
       <blockquote
         key={animateKey}
-        className="max-w-xl text-gray-200 italic font-extralight text-lg animate-fadeInSlow"
+        className="max-w-xl text-gray-200 italic font-extralight text-lg animate-fadeInSlow mb-8"
       >
         "{quotes[quoteIndex]}"
       </blockquote>
+
+      {/* Let's Talk Button */}
+      <button className="btn btn-primary btn-wide rounded-full shadow-lg hover:scale-110 transition duration-300 animate-pulse">
+        Let's Talk
+      </button>
 
       <style>{`
         @keyframes slideFromRight {

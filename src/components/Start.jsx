@@ -60,10 +60,6 @@ function Start() {
         "{quotes[quoteIndex]}"
       </blockquote>
 
-      <button className="btn btn-primary btn-wide rounded-full shadow-lg hover:scale-110 transition duration-300 animate-pulse">
-        Let's Talk
-      </button>
-
       <style>{`
         @keyframes slideFromRight {
           0% {

@@ -32,7 +32,21 @@ function Start() {
   }, []);
 
   return (
-    <div className="bg-cyan-900 h-screen flex flex-col justify-center items-center font-bold p-4 text-center">
+    <div className="bg-cyan-900 h-screen flex flex-col justify-center items-center font-bold p-4 text-center relative overflow-hidden">
+
+      {/* Open To Work Button */}
+      <div className="absolute top-6 left-6 animate-glow">
+        <button className="relative px-8 py-3 rounded-full border border-cyan-300 bg-cyan-400/20 backdrop-blur-md text-white font-bold tracking-widest text-sm shadow-[0_0_25px_rgba(34,211,238,0.8)] hover:scale-105 transition duration-300">
+
+          <span className="flex items-center gap-3">
+            OPEN TO WORK 
+          </span>
+
+          {/* Glow Effect */}
+          <span className="absolute inset-0 rounded-full border border-cyan-200 animate-ping opacity-20"></span>
+        </button>
+      </div>
+
       <h1 className="text-3xl font-sans pt-3 text-gray-300 animate-slideFromRight">
         Adeline IGIRANEZA
       </h1>
@@ -43,10 +57,15 @@ function Start() {
 
       <blockquote
         key={animateKey}
-        className="max-w-xl text-gray-200 italic font-extralight text-lg animate-fadeInSlow"
+        className="max-w-xl text-gray-200 italic font-extralight text-lg animate-fadeInSlow mb-8"
       >
         "{quotes[quoteIndex]}"
       </blockquote>
+
+      {/* Let's Talk Button */}
+      <button className="btn btn-primary btn-wide rounded-full shadow-lg hover:scale-110 transition duration-300 animate-pulse">
+        Let's Talk
+      </button>
 
       <style>{`
         @keyframes slideFromRight {
@@ -92,6 +111,20 @@ function Start() {
           }
         }
 
+        @keyframes glow {
+          0% {
+            transform: scale(1);
+          }
+
+          50% {
+            transform: scale(1.03);
+          }
+
+          100% {
+            transform: scale(1);
+          }
+        }
+
         .animate-slideFromRight {
           animation: slideFromRight 1.5s ease-out forwards;
         }
@@ -102,6 +135,10 @@ function Start() {
 
         .animate-fadeInSlow {
           animation: fadeInSlow 6s ease-in-out;
+        }
+
+        .animate-glow {
+          animation: glow 2s infinite ease-in-out;
         }
       `}</style>
     </div>

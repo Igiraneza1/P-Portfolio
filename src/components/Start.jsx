@@ -34,15 +34,13 @@ function Start() {
   return (
     <div className="bg-cyan-900 h-screen flex flex-col justify-center items-center font-bold p-4 text-center relative overflow-hidden">
 
-      {/* Open To Work Button */}
       <div className="absolute top-6 left-6 animate-glow">
-        <button className="relative px-8 py-3 rounded-full border border-cyan-300 bg-cyan-400/20 backdrop-blur-md text-white font-bold tracking-widest text-sm shadow-[0_0_25px_rgba(34,211,238,0.8)] hover:scale-105 transition duration-300">
+        <button className="relative px-20 py-3 rounded-full border border-cyan-300 bg-cyan-400/20 backdrop-blur-md text-white font-bold tracking-widest text-sm shadow-[0_0_25px_rgba(34,211,238,0.8)] hover:scale-105 transition duration-300">
 
           <span className="flex items-center gap-3">
             OPEN TO WORK 
           </span>
 
-          {/* Glow Effect */}
           <span className="absolute inset-0 rounded-full border border-cyan-200 animate-ping opacity-20"></span>
         </button>
       </div>
@@ -62,7 +60,6 @@ function Start() {
         "{quotes[quoteIndex]}"
       </blockquote>
 
-      {/* Let's Talk Button */}
       <button className="btn btn-primary btn-wide rounded-full shadow-lg hover:scale-110 transition duration-300 animate-pulse">
         Let's Talk
       </button>

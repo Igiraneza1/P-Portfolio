@@ -32,9 +32,9 @@ function Start() {
   }, []);
 
   return (
-    <div className="bg-cyan-900 h-screen flex flex-col justify-center items-center font-bold px-10 py-4 text-center relative overflow-hidden">
+    <div className="bg-cyan-900 h-screen flex flex-col justify-center items-center font-bold px-20 py-4 text-center relative overflow-hidden">
 
-      <div className="absolute top-10 left-6 animate-glow">
+      <div className="absolute top-20 left-6 animate-glow">
         <button className="relative px-8 py-3 rounded-full border border-cyan-300 bg-cyan-400/20 backdrop-blur-md text-white font-bold tracking-widest text-sm shadow-[0_0_25px_rgba(34,211,238,0.8)] hover:scale-105 transition duration-300">
 
           <span className="flex items-center gap-3">

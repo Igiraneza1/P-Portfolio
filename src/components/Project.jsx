@@ -12,8 +12,8 @@ const projects = [
   {
     title: 'Referral Tracker',
     description:
-      'A Referral Tracker web application is a full-stack system that includes both frontend and backend components working together. The frontend provides an interface for users to create, view, and manage patient referrals, while the backend handles data storage, authentication, and updates to referral status and clinical notes. Both parts communicate through APIs to ensure smooth data flow and real-time updates. 
-    technologies: ['React', 'TypeScript', 'Tailwind', 'Node.js', 'Express', 'PostgreSQL(Sequelize)', 'JWT'],
+  'A Referral Tracker web application is a full-stack system that includes both frontend and backend components working together. The frontend provides an interface for users to create, view, and manage patient referrals, while the backend handles data storage, authentication, and updates to referral status and clinical notes. Both parts communicate through APIs to ensure smooth data flow and real-time updates.',
+technologies: ['React', 'TypeScript', 'Tailwind', 'Node.js', 'Express', 'PostgreSQL (Sequelize)', 'JWT'],
     link: 'https://referral-tracker-frontend-onq1.vercel.app/',
     image: 'https://www.bing.com/images/search?view=detailV2&ccid=R5tLnieO&id=621DCCB2249C66BF16684D97276DFFB41FF4A717&thid=OIP.R5tLnieOYXFARXEIO_-fQwHaFO&mediaurl=https%3a%2f%2fst.depositphotos.com%2f49078592%2f53641%2fi%2f450%2fdepositphotos_536419836-stock-illustration-conceptual-display-referral-system-conceptual.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.479b4b9e278e6171404571083bff9f43%3frik%3dF6f0H7T%252fbSeXTQ%26pid%3dImgRaw%26r%3d0&exph=424&expw=600&q=Patient+Referral+Process+Cartoon&FORM=IRPRST&ck=D19E8C4D362E6143D8E1741D603DACB7&selectedIndex=24&itb=0',
   },

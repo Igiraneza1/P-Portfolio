@@ -19,7 +19,7 @@ function Home() {
         <div className="flex flex-col sm:flex-row gap-4 mt-8">
          
           <a
-            href="https://drive.google.com/file/d/1jIigRI4LKQ6UhuIddY9_EzqMu8BoOjND/view?usp=sharing"
+            href="https://docs.google.com/document/d/1Ii3XSQ4hLtI6tA8Oe9BU76opETjZsu2JjyVl0dhseb0/edit?tab=t.0"
             target="_blank"
             rel="noopener noreferrer"
             className="text-center font-serif bg-slate-700 hover:bg-slate-800 transition-colors duration-300 text-white w-40 sm:w-48 md:w-56 py-3 rounded-full animate-bounce shadow-lg"

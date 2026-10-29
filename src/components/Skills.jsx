@@ -24,7 +24,7 @@ function Skills() {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        My Skills
+        Skills
       </motion.h1>
 
       <div className="max-w-7xl mx-auto space-y-16">
@@ -40,7 +40,7 @@ function Skills() {
             <h2 className="text-2xl font-bold mb-6 text-accent text-left">
               {category}
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-6">
               {data[category]
                 ?.slice()
                 .sort((a, b) => b.value - a.value)

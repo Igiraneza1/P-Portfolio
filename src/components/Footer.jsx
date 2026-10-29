@@ -7,7 +7,7 @@ function Footer() {
     <footer className="bg-black text-gray-400 fixed bottom-0 w-full text-base-content px-4 mt-12">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="text-center md:text-left">
-          <h1 className="text-xl font-bold">Adeline IGIRANEZA</h1>
+          <h3 className="text-xl font-bold">Adeline Igiraneza</h3>
           <p className="text-sm">© {new Date().getFullYear()} All rights reserved.</p>
         </div>
 

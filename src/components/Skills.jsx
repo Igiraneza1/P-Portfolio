@@ -40,7 +40,7 @@ function Skills() {
             <h2 className="text-2xl font-bold mb-6 text-accent text-left">
               {category}
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-6">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-6">
               {data[category]
                 ?.slice()
                 .sort((a, b) => b.value - a.value)
@@ -53,7 +53,7 @@ function Skills() {
                     <img
                       src={skill.img}
                       alt={skill.name}
-                      className="w-14 h-14 object-contain mb-3"
+                      className="w-10 h-10 object-contain mb-3"
                     />
                     <h3 className="text-lg font-semibold">{skill.name}</h3>
                     <p className="text-sm text-primary font-medium">{skill.value}%</p>

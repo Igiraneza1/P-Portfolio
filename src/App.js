@@ -10,7 +10,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import TidioChat from './tidio/TidioChat';
-// import ContactSection from './calender/page';
+import ContactSection from './calender/page';
 
 function App() {
   return (
